@@ -113,10 +113,10 @@ a {
     flex-direction: column;
     align-items: center;
     border: 1.5px solid black;
-    max-width:30%;
+    max-width: 30%;
     /* padding: 0 10px; */
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .img-text h3 {
@@ -129,13 +129,26 @@ a {
     border-bottom-color: var(--cor1);
 }
 
-.img-card {
+.container-card {
     width: 100%;
-    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-card {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit:cover; */
 }
 
 .title-text-card {
-    text-align: center;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    /* height: 100%; */
 }
 
 .title-card {
@@ -147,10 +160,8 @@ a {
 .text-card {
     padding: 0 10px 10px;
     margin: 0;
-}
-
-p {
     text-align: justify;
+    /* height: 100%; */
 }
 
 .rodape {
@@ -209,4 +220,14 @@ p {
 
 .icone-rede-social {
     font-size: 2vw;
+}
+
+.list-card ul {
+    padding: 0 10px 10px;
+    margin: 0;
+    margin: 0;
+}
+
+.list-card li {
+    list-style-type: circle;
 }
